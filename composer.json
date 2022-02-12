@@ -1,0 +1,14 @@
+{
+    "require": {
+        "doctrine/orm": "^2.11",
+        "symfony/yaml": "^6.0",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13",
+        "doctrine/dbal": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Filmes\\Doctrine\\": "src/"
+        }
+    }
+}
